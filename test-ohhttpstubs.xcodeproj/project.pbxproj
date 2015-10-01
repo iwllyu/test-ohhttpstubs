@@ -1,0 +1,665 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4548ED501BBD73D800CC10BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4548ED4F1BBD73D800CC10BA /* AppDelegate.swift */; };
+		4548ED521BBD73D800CC10BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4548ED511BBD73D800CC10BA /* ViewController.swift */; };
+		4548ED551BBD73D800CC10BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4548ED531BBD73D800CC10BA /* Main.storyboard */; };
+		4548ED581BBD73D800CC10BA /* test_ohhttpstubs.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4548ED561BBD73D800CC10BA /* test_ohhttpstubs.xcdatamodeld */; };
+		4548ED5A1BBD73D800CC10BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4548ED591BBD73D800CC10BA /* Assets.xcassets */; };
+		4548ED5D1BBD73D800CC10BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4548ED5B1BBD73D800CC10BA /* LaunchScreen.storyboard */; };
+		4548ED681BBD73D800CC10BA /* test_ohhttpstubsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4548ED671BBD73D800CC10BA /* test_ohhttpstubsTests.swift */; };
+		4548ED731BBD73D800CC10BA /* test_ohhttpstubsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4548ED721BBD73D800CC10BA /* test_ohhttpstubsUITests.swift */; };
+		4548ED811BBD746D00CC10BA /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 4548ED801BBD746D00CC10BA /* Podfile */; settings = {ASSET_TAGS = (); }; };
+		653B94B98406AD3C9231231D /* Pods_test_ohhttpstubs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA620031E15861250D34973 /* Pods_test_ohhttpstubs.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		EFA0E735C7395A3D51B73C70 /* Pods_test_ohhttpstubsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8108B3AA3455358E1216CE39 /* Pods_test_ohhttpstubsTests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4548ED641BBD73D800CC10BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4548ED441BBD73D800CC10BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4548ED4B1BBD73D800CC10BA;
+			remoteInfo = "test-ohhttpstubs";
+		};
+		4548ED6F1BBD73D800CC10BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4548ED441BBD73D800CC10BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4548ED4B1BBD73D800CC10BA;
+			remoteInfo = "test-ohhttpstubs";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C47E12DC6B74F5A99730D66 /* Pods-test-ohhttpstubsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test-ohhttpstubsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-test-ohhttpstubsTests/Pods-test-ohhttpstubsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		25748A1CA8093EDF865293EF /* Pods-test-ohhttpstubs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test-ohhttpstubs.release.xcconfig"; path = "Pods/Target Support Files/Pods-test-ohhttpstubs/Pods-test-ohhttpstubs.release.xcconfig"; sourceTree = "<group>"; };
+		4548ED4C1BBD73D800CC10BA /* test-ohhttpstubs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "test-ohhttpstubs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4548ED4F1BBD73D800CC10BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4548ED511BBD73D800CC10BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4548ED541BBD73D800CC10BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4548ED571BBD73D800CC10BA /* test_ohhttpstubs.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = test_ohhttpstubs.xcdatamodel; sourceTree = "<group>"; };
+		4548ED591BBD73D800CC10BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4548ED5C1BBD73D800CC10BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4548ED5E1BBD73D800CC10BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4548ED631BBD73D800CC10BA /* test-ohhttpstubsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "test-ohhttpstubsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4548ED671BBD73D800CC10BA /* test_ohhttpstubsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_ohhttpstubsTests.swift; sourceTree = "<group>"; };
+		4548ED691BBD73D800CC10BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4548ED6E1BBD73D800CC10BA /* test-ohhttpstubsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "test-ohhttpstubsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4548ED721BBD73D800CC10BA /* test_ohhttpstubsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_ohhttpstubsUITests.swift; sourceTree = "<group>"; };
+		4548ED741BBD73D800CC10BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4548ED801BBD746D00CC10BA /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8108B3AA3455358E1216CE39 /* Pods_test_ohhttpstubsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_test_ohhttpstubsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		949F11CD90E048DB7C30695F /* Pods-test-ohhttpstubsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test-ohhttpstubsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-test-ohhttpstubsTests/Pods-test-ohhttpstubsTests.release.xcconfig"; sourceTree = "<group>"; };
+		DAA620031E15861250D34973 /* Pods_test_ohhttpstubs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_test_ohhttpstubs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD258669EF5F293EA45FC29 /* Pods-test-ohhttpstubs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test-ohhttpstubs.debug.xcconfig"; path = "Pods/Target Support Files/Pods-test-ohhttpstubs/Pods-test-ohhttpstubs.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4548ED491BBD73D800CC10BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				653B94B98406AD3C9231231D /* Pods_test_ohhttpstubs.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4548ED601BBD73D800CC10BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFA0E735C7395A3D51B73C70 /* Pods_test_ohhttpstubsTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4548ED6B1BBD73D800CC10BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4548ED431BBD73D800CC10BA = {
+			isa = PBXGroup;
+			children = (
+				4548ED801BBD746D00CC10BA /* Podfile */,
+				4548ED4E1BBD73D800CC10BA /* test-ohhttpstubs */,
+				4548ED661BBD73D800CC10BA /* test-ohhttpstubsTests */,
+				4548ED711BBD73D800CC10BA /* test-ohhttpstubsUITests */,
+				4548ED4D1BBD73D800CC10BA /* Products */,
+				5D32CAF978EF77DADA10DB81 /* Pods */,
+				A5E773D1D3E6AF37F48A964D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4548ED4D1BBD73D800CC10BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4548ED4C1BBD73D800CC10BA /* test-ohhttpstubs.app */,
+				4548ED631BBD73D800CC10BA /* test-ohhttpstubsTests.xctest */,
+				4548ED6E1BBD73D800CC10BA /* test-ohhttpstubsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4548ED4E1BBD73D800CC10BA /* test-ohhttpstubs */ = {
+			isa = PBXGroup;
+			children = (
+				4548ED4F1BBD73D800CC10BA /* AppDelegate.swift */,
+				4548ED511BBD73D800CC10BA /* ViewController.swift */,
+				4548ED531BBD73D800CC10BA /* Main.storyboard */,
+				4548ED591BBD73D800CC10BA /* Assets.xcassets */,
+				4548ED5B1BBD73D800CC10BA /* LaunchScreen.storyboard */,
+				4548ED5E1BBD73D800CC10BA /* Info.plist */,
+				4548ED561BBD73D800CC10BA /* test_ohhttpstubs.xcdatamodeld */,
+			);
+			path = "test-ohhttpstubs";
+			sourceTree = "<group>";
+		};
+		4548ED661BBD73D800CC10BA /* test-ohhttpstubsTests */ = {
+			isa = PBXGroup;
+			children = (
+				4548ED671BBD73D800CC10BA /* test_ohhttpstubsTests.swift */,
+				4548ED691BBD73D800CC10BA /* Info.plist */,
+			);
+			path = "test-ohhttpstubsTests";
+			sourceTree = "<group>";
+		};
+		4548ED711BBD73D800CC10BA /* test-ohhttpstubsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4548ED721BBD73D800CC10BA /* test_ohhttpstubsUITests.swift */,
+				4548ED741BBD73D800CC10BA /* Info.plist */,
+			);
+			path = "test-ohhttpstubsUITests";
+			sourceTree = "<group>";
+		};
+		5D32CAF978EF77DADA10DB81 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FAD258669EF5F293EA45FC29 /* Pods-test-ohhttpstubs.debug.xcconfig */,
+				25748A1CA8093EDF865293EF /* Pods-test-ohhttpstubs.release.xcconfig */,
+				1C47E12DC6B74F5A99730D66 /* Pods-test-ohhttpstubsTests.debug.xcconfig */,
+				949F11CD90E048DB7C30695F /* Pods-test-ohhttpstubsTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A5E773D1D3E6AF37F48A964D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DAA620031E15861250D34973 /* Pods_test_ohhttpstubs.framework */,
+				8108B3AA3455358E1216CE39 /* Pods_test_ohhttpstubsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4548ED4B1BBD73D800CC10BA /* test-ohhttpstubs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4548ED771BBD73D800CC10BA /* Build configuration list for PBXNativeTarget "test-ohhttpstubs" */;
+			buildPhases = (
+				7511DBF33C5282D3FEAB7D5B /* Check Pods Manifest.lock */,
+				4548ED481BBD73D800CC10BA /* Sources */,
+				4548ED491BBD73D800CC10BA /* Frameworks */,
+				4548ED4A1BBD73D800CC10BA /* Resources */,
+				91A7087BA4788D4D32DD65D3 /* Embed Pods Frameworks */,
+				FF4F889B33D449875C82F121 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "test-ohhttpstubs";
+			productName = "test-ohhttpstubs";
+			productReference = 4548ED4C1BBD73D800CC10BA /* test-ohhttpstubs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4548ED621BBD73D800CC10BA /* test-ohhttpstubsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4548ED7A1BBD73D800CC10BA /* Build configuration list for PBXNativeTarget "test-ohhttpstubsTests" */;
+			buildPhases = (
+				787C667A80F7421EC6E16910 /* Check Pods Manifest.lock */,
+				4548ED5F1BBD73D800CC10BA /* Sources */,
+				4548ED601BBD73D800CC10BA /* Frameworks */,
+				4548ED611BBD73D800CC10BA /* Resources */,
+				39BC041865A3FD6985265C50 /* Embed Pods Frameworks */,
+				A44CF27175E0DA4EEF7B9045 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4548ED651BBD73D800CC10BA /* PBXTargetDependency */,
+			);
+			name = "test-ohhttpstubsTests";
+			productName = "test-ohhttpstubsTests";
+			productReference = 4548ED631BBD73D800CC10BA /* test-ohhttpstubsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4548ED6D1BBD73D800CC10BA /* test-ohhttpstubsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4548ED7D1BBD73D800CC10BA /* Build configuration list for PBXNativeTarget "test-ohhttpstubsUITests" */;
+			buildPhases = (
+				4548ED6A1BBD73D800CC10BA /* Sources */,
+				4548ED6B1BBD73D800CC10BA /* Frameworks */,
+				4548ED6C1BBD73D800CC10BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4548ED701BBD73D800CC10BA /* PBXTargetDependency */,
+			);
+			name = "test-ohhttpstubsUITests";
+			productName = "test-ohhttpstubsUITests";
+			productReference = 4548ED6E1BBD73D800CC10BA /* test-ohhttpstubsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4548ED441BBD73D800CC10BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Yu, William";
+				TargetAttributes = {
+					4548ED4B1BBD73D800CC10BA = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					4548ED621BBD73D800CC10BA = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 4548ED4B1BBD73D800CC10BA;
+					};
+					4548ED6D1BBD73D800CC10BA = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 4548ED4B1BBD73D800CC10BA;
+					};
+				};
+			};
+			buildConfigurationList = 4548ED471BBD73D800CC10BA /* Build configuration list for PBXProject "test-ohhttpstubs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4548ED431BBD73D800CC10BA;
+			productRefGroup = 4548ED4D1BBD73D800CC10BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4548ED4B1BBD73D800CC10BA /* test-ohhttpstubs */,
+				4548ED621BBD73D800CC10BA /* test-ohhttpstubsTests */,
+				4548ED6D1BBD73D800CC10BA /* test-ohhttpstubsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4548ED4A1BBD73D800CC10BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4548ED5D1BBD73D800CC10BA /* LaunchScreen.storyboard in Resources */,
+				4548ED5A1BBD73D800CC10BA /* Assets.xcassets in Resources */,
+				4548ED811BBD746D00CC10BA /* Podfile in Resources */,
+				4548ED551BBD73D800CC10BA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4548ED611BBD73D800CC10BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4548ED6C1BBD73D800CC10BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		39BC041865A3FD6985265C50 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-test-ohhttpstubsTests/Pods-test-ohhttpstubsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7511DBF33C5282D3FEAB7D5B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		787C667A80F7421EC6E16910 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		91A7087BA4788D4D32DD65D3 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-test-ohhttpstubs/Pods-test-ohhttpstubs-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A44CF27175E0DA4EEF7B9045 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-test-ohhttpstubsTests/Pods-test-ohhttpstubsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF4F889B33D449875C82F121 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-test-ohhttpstubs/Pods-test-ohhttpstubs-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4548ED481BBD73D800CC10BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4548ED521BBD73D800CC10BA /* ViewController.swift in Sources */,
+				4548ED501BBD73D800CC10BA /* AppDelegate.swift in Sources */,
+				4548ED581BBD73D800CC10BA /* test_ohhttpstubs.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4548ED5F1BBD73D800CC10BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4548ED681BBD73D800CC10BA /* test_ohhttpstubsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4548ED6A1BBD73D800CC10BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4548ED731BBD73D800CC10BA /* test_ohhttpstubsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4548ED651BBD73D800CC10BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4548ED4B1BBD73D800CC10BA /* test-ohhttpstubs */;
+			targetProxy = 4548ED641BBD73D800CC10BA /* PBXContainerItemProxy */;
+		};
+		4548ED701BBD73D800CC10BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4548ED4B1BBD73D800CC10BA /* test-ohhttpstubs */;
+			targetProxy = 4548ED6F1BBD73D800CC10BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4548ED531BBD73D800CC10BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4548ED541BBD73D800CC10BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4548ED5B1BBD73D800CC10BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4548ED5C1BBD73D800CC10BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4548ED751BBD73D800CC10BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4548ED761BBD73D800CC10BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4548ED781BBD73D800CC10BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAD258669EF5F293EA45FC29 /* Pods-test-ohhttpstubs.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "test-ohhttpstubs/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.test-ohhttpstubs";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4548ED791BBD73D800CC10BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25748A1CA8093EDF865293EF /* Pods-test-ohhttpstubs.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "test-ohhttpstubs/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.test-ohhttpstubs";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4548ED7B1BBD73D800CC10BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C47E12DC6B74F5A99730D66 /* Pods-test-ohhttpstubsTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "test-ohhttpstubsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.test-ohhttpstubsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/test-ohhttpstubs.app/test-ohhttpstubs";
+			};
+			name = Debug;
+		};
+		4548ED7C1BBD73D800CC10BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 949F11CD90E048DB7C30695F /* Pods-test-ohhttpstubsTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "test-ohhttpstubsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.test-ohhttpstubsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/test-ohhttpstubs.app/test-ohhttpstubs";
+			};
+			name = Release;
+		};
+		4548ED7E1BBD73D800CC10BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "test-ohhttpstubsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.test-ohhttpstubsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "test-ohhttpstubs";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4548ED7F1BBD73D800CC10BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "test-ohhttpstubsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.test-ohhttpstubsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "test-ohhttpstubs";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4548ED471BBD73D800CC10BA /* Build configuration list for PBXProject "test-ohhttpstubs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4548ED751BBD73D800CC10BA /* Debug */,
+				4548ED761BBD73D800CC10BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4548ED771BBD73D800CC10BA /* Build configuration list for PBXNativeTarget "test-ohhttpstubs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4548ED781BBD73D800CC10BA /* Debug */,
+				4548ED791BBD73D800CC10BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4548ED7A1BBD73D800CC10BA /* Build configuration list for PBXNativeTarget "test-ohhttpstubsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4548ED7B1BBD73D800CC10BA /* Debug */,
+				4548ED7C1BBD73D800CC10BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4548ED7D1BBD73D800CC10BA /* Build configuration list for PBXNativeTarget "test-ohhttpstubsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4548ED7E1BBD73D800CC10BA /* Debug */,
+				4548ED7F1BBD73D800CC10BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4548ED561BBD73D800CC10BA /* test_ohhttpstubs.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4548ED571BBD73D800CC10BA /* test_ohhttpstubs.xcdatamodel */,
+			);
+			currentVersion = 4548ED571BBD73D800CC10BA /* test_ohhttpstubs.xcdatamodel */;
+			path = test_ohhttpstubs.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4548ED441BBD73D800CC10BA /* Project object */;
+}
